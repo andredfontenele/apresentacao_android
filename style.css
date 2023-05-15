@@ -1,9 +1,12 @@
 * {
   margin: 0;
-  padding: 0;
-  background: #23232e;
+  padding: 0;;
   scroll-behavior: smooth;
   color:white;
+}
+
+body{
+  background-color: #23232e;
 }
 
 a {
@@ -27,14 +30,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
+  background: #69696d;
   height: 8vh;
-}
-
-main {
-  background: url("bg.jpg") no-repeat center center;
-  background-size: cover;
-  height: 92vh;
 }
 
 .nav-list {
@@ -58,6 +55,111 @@ main {
   background: #fff;
   margin: 8px;
   transition: 0.3s;
+}
+
+#caracteristicas{
+  font-size: 35px;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+#caracteristicas h1{
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+}
+
+#caracteristicas_content{
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+}
+
+#problemas_do_so{
+  font-size: 35px;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+#problemas_do_so h1{
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+}
+
+#problemas_content{
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+}
+
+#melhores_apps{
+  font-size: 35px;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+#melhores_apps h1{
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+}
+
+#apps_content{
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+}
+
+#problemas_de_seguranca{
+  font-size: 35px;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+#problemas_de_seguranca h1{
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+}
+
+#seguranca_content{
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+}
+
+#desempenho{
+  font-size: 35px;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+#desempenho h1{
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+}
+
+#desempenho_content{
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
 }
 
 @media (max-width: 999px) {
