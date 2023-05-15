@@ -3,6 +3,7 @@
   padding: 0;;
   scroll-behavior: smooth;
   color:white;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 body{
@@ -61,6 +62,7 @@ nav {
   font-size: 35px;
   justify-content: center;
   margin-top: 7%;
+
 }
 
 #caracteristicas h1{
@@ -72,10 +74,47 @@ nav {
 }
 
 #caracteristicas_content{
+  display: flex;
   text-align: center;
   margin: auto;
   padding-top: 3rem;
   width: 60%;
+  text-align: justify;
+}
+
+.caracteristicas_p1{
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+  text-align: justify;
+}
+
+.iframe{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+  text-align: justify;
+}
+
+.caracteristicas_p2{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+  text-align: justify;
+}
+
+.caracteristicas_list{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+  text-align: justify;
 }
 
 #problemas_do_so{
