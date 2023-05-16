@@ -33,6 +33,9 @@ nav {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #69696d;
   height: 8vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-list {
@@ -59,6 +62,8 @@ nav {
 }
 
 #caracteristicas{
+  border: 1px solid red;
+  padding-top: 50px;
   font-size: 33px;
   justify-content: center;
   margin-top: 7%;
@@ -120,6 +125,7 @@ nav {
 }
 
 #problemas_do_so{
+  padding-top: 50px;
   font-size: 33px;
   justify-content: center;
   margin-top: 7%;
@@ -134,6 +140,7 @@ nav {
 }
 
 #problemas_content{
+  padding-top: 40px;
   display: flex;
   text-align: center;
   margin: auto;
@@ -147,6 +154,7 @@ nav {
 }
 
 #melhores_apps{
+  padding-top: 50px;
   font-size: 33px;
   justify-content: center;
   margin-top: 7%;
@@ -203,6 +211,7 @@ nav {
 }
 
 #problemas_de_seguranca{
+  padding-top: 50px;
   font-size: 33px;
   justify-content: center;
   margin-top: 7%;
@@ -226,6 +235,7 @@ nav {
 }
 
 #desempenho{
+  padding-top: 50px;
   font-size: 33px;
   justify-content: center;
   margin-top: 7%;
