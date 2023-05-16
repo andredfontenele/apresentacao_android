@@ -99,12 +99,13 @@ nav {
   text-align: justify;
 }
 
-.caracteristicas_p2{
+#caracteristicas img{
+  height: 500px;
+  width: 900px;
   display: flex;
   text-align: center;
   margin: auto;
   padding-top: 3rem;
-  width: 60%;
   text-align: justify;
 }
 
@@ -115,6 +116,7 @@ nav {
   padding-top: 3rem;
   width: 60%;
   text-align: justify;
+  padding: 10px;
 }
 
 #problemas_do_so{
@@ -132,10 +134,16 @@ nav {
 }
 
 #problemas_content{
+  display: flex;
   text-align: center;
   margin: auto;
   padding-top: 3rem;
   width: 60%;
+  text-align: justify;
+}
+
+#problemas_content li{
+  padding: 10px;
 }
 
 #melhores_apps{
