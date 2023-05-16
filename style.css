@@ -42,12 +42,13 @@ nav {
 .nav-list {
   list-style: none;
   display: flex;
-  border: 1px solid white;
+
 }
 
 .nav-list li {
   letter-spacing: 3px;
   margin-left: 32px;
+  border-bottom: 1px solid white;
 }
 
 .mobile-menu {
@@ -72,11 +73,12 @@ nav {
 
 #caracteristicas h1{
   text-align: center;
-  border-bottom: 2px solid #fff;
+  border-bottom: 1px solid white;
   margin: auto;
   padding-top: 3rem;
   width: 60%;
 }
+
 
 #caracteristicas_content{
   display: flex;
@@ -103,11 +105,9 @@ nav {
   text-align: justify;
 }
 
-#caracteristicas img{
-  height: 500px;
+#caracteristicas_content img{
   display: flex;
   text-align: center;
-  margin: auto;
   padding-top: 3rem;
   text-align: justify;
 }
