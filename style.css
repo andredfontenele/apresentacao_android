@@ -80,7 +80,6 @@ nav {
 #caracteristicas_content{
   display: flex;
   text-align: center;
-  margin: auto;
   padding-top: 3rem;
   width: 60%;
   text-align: justify;
@@ -105,7 +104,6 @@ nav {
 
 #caracteristicas img{
   height: 500px;
-  width: 900px;
   display: flex;
   text-align: center;
   margin: auto;
@@ -121,6 +119,13 @@ nav {
   width: 60%;
   text-align: justify;
   padding: 10px;
+}
+
+.caracteristicas_margem{
+  display: block;
+  margin: auto;
+  justify-content: center;
+
 }
 
 #problemas_do_so{
