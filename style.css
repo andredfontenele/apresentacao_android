@@ -160,6 +160,15 @@ nav {
   width: 60%;
 }
 
+#app_content{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+  text-align: justify;
+}
+
 #apps_content{
   text-align: center;
   margin: auto;
