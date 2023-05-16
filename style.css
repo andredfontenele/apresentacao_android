@@ -184,12 +184,20 @@ nav {
   width: 60%;
   text-align: justify;
   font: 33px;
+  border: 1px solid red;
 }
 
 .app img{
   width: 300px;
   height: 200px;
-  margin-right: 30px;
+  margin-right: 50px;
+  border: 1px solid red;
+}
+
+.brave{
+  margin-left: 35px;
+  width: 400px;
+  height: 400px;
 }
 
 #radius-border{
@@ -211,10 +219,12 @@ nav {
 }
 
 #seguranca_content{
+  display: flex;
   text-align: center;
   margin: auto;
   padding-top: 3rem;
   width: 60%;
+  text-align: justify;
 }
 
 #desempenho{
