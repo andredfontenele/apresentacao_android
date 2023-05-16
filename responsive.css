@@ -3,6 +3,7 @@
     overflow-x: hidden;
   }
   .nav-list {
+    font-size: 13px;
     position: absolute;
     top: 8vh;
     right: 0;
@@ -17,6 +18,13 @@
   }
   .nav-list li {
     margin: auto;
+
+  }
+
+  .nav-list li:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: ease-in-out;
 
   }
   .mobile-menu {
@@ -81,6 +89,10 @@
 
     margin: auto;
     width: 100%;
+  }
+
+  .iframe{
+    transform: translateX(-30%);
   }
 
 
