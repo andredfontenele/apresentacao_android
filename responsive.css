@@ -17,9 +17,11 @@
   }
   .nav-list li {
     margin: auto;
+
   }
   .mobile-menu {
     display: block;
+
   }
 
   #caracteristicas {
@@ -41,9 +43,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateX(-80px);
+    transform: translate(-63%, -10%);
+    transform: translateX(-50%);
     width: auto;
     height: auto;
+    left: 50%;
+    top: 50%; 
+    position: relative;
   }
 
   img{
