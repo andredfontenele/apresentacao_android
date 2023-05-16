@@ -176,6 +176,26 @@ nav {
   width: 60%;
 }
 
+.app{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  width: 60%;
+  text-align: justify;
+  font: 33px;
+}
+
+.app img{
+  width: 300px;
+  height: 200px;
+  margin-right: 30px;
+}
+
+#radius-border{
+  border-radius: 153px;
+}
+
 #problemas_de_seguranca{
   font-size: 33px;
   justify-content: center;
