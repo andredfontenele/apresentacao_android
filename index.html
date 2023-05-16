@@ -1,62 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <nav>
-          <a class="logo" href="/">Android 13</a>
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <ul class="nav-list">
-            <li><a href="#caracteristicas">Características</a></li>
-            <li><a href="#problemas_do_so">Problemas do SO</a></li>
-            <li><a href="#melhores_apps">Melhores Aplicativos</a></li>
-            <li>
-              <a href="#problemas_de_seguranca">Problemas de Segurança</a>
-            </li>
-            <li><a href="#desempenho">Desempenho</a></li>
-          </ul>
-        </nav>
+    <div class="contentMain">
+      <header class="content contentHeader">
+        <h1 style="cursor: pointer">ANDROID 13</h1>
+        <div class="navs">
+          <a href="#"><li>Características</li></a>
+          <a href="#problemasSo"><li>Problemas do SO</li></a>
+          <a href="#melhoresAplicativos"><li>Melhores Aplicativos</li></a>
+          <a href="#problemasSeguranca"><li>Problemas de Segurança</li></a>
+          <a href="#desempenho"><li>Desempenho</li></a>
+        </div>
+        <ion-icon name="menu-outline" onclick="activeResp()"></ion-icon>
+        <div class="navsResp">
+          <a onclick="activeResp()" href="#"><li>Características</li></a>
+          <a onclick="activeResp()" href="#problemasSo"
+            ><li>Problemas do SO</li></a
+          >
+          <a onclick="activeResp()" href="#melhoresAplicativos"
+            ><li>Melhores Aplicativos</li></a
+          >
+          <a onclick="activeResp()" href="#problemasSeguranca"
+            ><li>Problemas de Segurança</li></a
+          >
+          <a onclick="activeResp()" href="#desempenho"><li>Desempenho</li></a>
+          <a onclick="activeResp()" href="#"
+            ><ion-icon onclick="activeResp()" name="close-outline"></ion-icon
+          ></a>
+                    
+        </div>
       </header>
 
       <section id="caracteristicas">
-        <h1>Características</h1>
-        <div id="caracteristicas_content">
-          <div class="caracteristicas_margem">
-            No dia 23 de setembro de 2008 chegava ao mercado o sistema
-            operacional Android, desenvolvido desenvolvido por Andy Rubin, Rich
-            Miner, Nick Sears e Chris White.
+        <div class="content contentCaracteristicas">
+          <h1>Características</h1>
+
+          <div class="descricao">
+            <img style="width: 15rem" src="assets/android.png" />
+            <p>
+              No dia 23 de setembro de 2008 chegava ao mercado o sistema
+              operacional Android,
+            </p>
+            <p>
+              desenvolvido desenvolvido por Andy Rubin, Rich Miner, Nick Sears e
+              Chris White.
+            </p>
             <br />
-            Assim como o Windows foi por muitos anos o sistema operacional mais
-            utilizado no mundo, hoje esse posto pertence ao SO da Google. A
-            explicação é simples: há mais usuários acessando a internet e
-            executando aplicações pelo celular do que via PC ou notebook.
+            <p>
+              Assim como o Windows foi por muitos anos o sistema operacional
+              mais utilizado no mundo,
+            </p>
+            <p>
+              hoje esse posto pertence ao SO da Google. A explicação é simples:
+              há mais usuários acessando
+            </p>
+            <p>
+              a internet e executando aplicações pelo celular do que via PC ou
+              notebook.
+            </p>
+            <br />
+            <p>
+              O Android é um sistema operacional que utiliza o Linux (um sistema
+              operacional gratuito)
+            </p>
+            <p>
+              como base. Neste vídeo, é possível passar alguns comandos Linux
+              dentro do próprio celular Android:
+            </p>
+            <p></p>
           </div>
-        </div>
-        <div class="caracteristicas_p1">
-          O Android é um sistema operacional que utiliza o Linux (um sistema
-          operacional gratuito) como base. Neste vídeo, é possível passar alguns
-          comandos Linux dentro do próprio celular Android:
-          <div class="iframe">
+          <div class="video">
             <iframe
-              width="1000"
               height="360"
               src="https://www.youtube.com/embed/pRALNtsMrlg"
               title="YouTube video player"
@@ -65,189 +87,276 @@
               allowfullscreen
             ></iframe>
           </div>
-          <br />
-          Como uma das características principais, o Android é integrado com o
-          Google, que disponibiliza recursos e softwares importantes como o
-          Google Play Store, Google Assistant, Google Drive e dentre outros.
-          <br />
-          Atualmente, o Android se encontra na sua 13° versão, lançada em
-          Setembro de 2022. Essa versão trouxe novidades, sendo algumas delas:
         </div>
-        <div class="caracteristicas_list">
+      </section>
+      <section id="caracteristicas2">
+        <div class="content contentCaracteristicas2">
+          <p>
+            Como uma das características principais, o Android é integrado com o
+            Google, que disponibiliza
+          </p>
+          <p>
+            recursos e softwares importantes como o Google Play Store, Google
+            Assistant, Google Drive e dentre outros.
+          </p>
+          <br />
+          <p>
+            Atualmente, o Android se encontra na sua 13° versão, lançada em
+            Setembro de 2022. Essa versão trouxe novidades, sendo algumas delas:
+          </p>
+          <br />
+          <br />
           <ul>
             <li>
-              Ícones personalizáveis para aplicativos que não são do Google,
+              <h1>•</h1>
+              Ícones personalizáveis para aplicativos que não são do Google,<br />
               como parte do Material You.
             </li>
-            <li>Escolhas de idioma independentes para cada app.</li>
             <li>
-              Tocador de música atualizado, que destaca a arte do disco e tem
+              <h1>•</h1>
+              Escolhas de idioma independentes para cada app.
+            </li>
+            <li>
+              <h1>•</h1>
+              Tocador de música atualizado, que destaca a arte do disco e tem<br />
               uma barra de progresso.
             </li>
             <li>
-              Papel de parede com menor luminosidade e tema escuro na Hora de
+              <h1>•</h1>
+              Papel de parede com menor luminosidade e tema escuro na Hora de<br />
               Dormir.
             </li>
             <li>
+              <h1>•</h1>
               Seletor de fotos para apps que não libera o acesso a todos os
-              arquivos da galeria.
+              <br />arquivos da galeria.
             </li>
             <li>
-              Limpeza automática da área de transferência após um tempo, caso o
+              <h1>•</h1>
+              Limpeza automática da área de transferência após um tempo, caso
+              o<br />
               usuário copie informações sensíveis como e-mail, endereço, celular
               ou login.
             </li>
             <li>
+              <h1>•</h1>
               Tablets Android reconhecem diferenças nos toques de uma caneta
-              stylus e de cada dedo da mão, ajudando quem desenha. Para obter
-              mais acesso às informações desta nova versão, acesse o site
-              oficial do Android:
-              <a href="https://developer.android.com/about/versions/13?hl=pt-br"
-                ><span class="link">Android 13</span></a
-              >
+              stylus<br />
+              e de cada dedo da mão, ajudando quem desenha.
             </li>
           </ul>
         </div>
-        <!-- <img src="assets/android-13.png" alt="Android 13" /> -->
+        <br />
       </section>
-
-      <section id="problemas_do_so">
-        <h1>Problemas do Sistema Operacional</h1>
-        <div id="problemas_content">
+      <section id="problemasSo">
+        <div class="content contentProblemasSO">
+          <h1 class="titulo">Problemas do Sistema Operacional</h1>
+          <br />
+          <br />
           <ul>
             <li>
+              <h1>•</h1>
               O sistema apresenta problemas de otimização de apps devido à falta
-              de compatibilidade completa com o SO atual.
+              de <br />compatibilidade completa com o SO atual.
             </li>
             <li>
+              <h1>•</h1>
               Com frequência, ocorrem interrupções e dificuldades no download de
-              novos apps, devido a corrupção da memória cache.
+              novos<br />
+              apps, devido a corrupção da memória cache.
             </li>
             <li>
+              <h1>•</h1>
               A Play Store apresenta problemas de fiscalização, com alguns apps
-              vindo com vírus.Uma solução para resolver isso é verificar os
-              comentários na própria loja, caso o dano já tenha sido feito terá
-              de ser utilizado apps para deletar os vírus.
+              vindo com<br />
+              vírus.Uma solução para resolver isso é verificar os comentários
+              na<br />
+              própria loja, caso o dano já tenha sido feito terá de ser
+              utilizado apps para deletar os vírus.
             </li>
           </ul>
         </div>
       </section>
 
-      <section id="melhores_apps">
-        <h1>Melhores Aplicativos</h1>
-        <div id="app_content">
-          Pelo fato do Android possuir a Play Store, é possível ter acesso a
-          vários aplicativos interessantes para o usuário. Dentre eles, podemos
-          destacar:
-        </div>
-        <div class="app">
-          <img src="assets/android-assistant.png" />
-          <div>
-            <h2>Android Assistant</h2>
-            O Android Assistant é um aplicativo, para Android, que monitora as
-            funções do seu smartphone. Ele permite matar processos, gerenciar
-            arquivos e limpar cache. Com o app, o usuário monitora a sua CPU com
-            14 funcionalidades, desde modificar todos os volume do seu aparelho
-            (toque, notificação, volume de som, alarme e chamada) até
-            desinstalar várias aplicações ao mesmo tempo.
-          </div>
-        </div>
-        <div class="app">
-          <img id="radius-border" src="assets/android-booster.jpg" />
-          <div>
-            <h2>Android Booster</h2>
-            O Android Booster é um otimizador de desempenho do dispositivo, que
-            tem como objetivo otimizar a memória e melhorar o desempenho da
-            bateria.
-          </div>
-        </div>
-        <div class="app">
-          <img src="assets/adb.png" />
-          <div>
-            <h2>Android Debug Bridge</h2>
-            O ADB (Android Debug Bridge) é uma ferramenta de desenvolvimento
-            usada para a depuração de dispositivos Android, desse modo
-            apresentando um terminal Unix, possibilitando a execução de
-            comandos.
-          </div>
-        </div>
-        <div class="app">
-          <img src="assets/onedrive.png" />
-          <div>
-            <h2>One Drive</h2>
-            O Onedrive é um ferramenta de armazenamento em nuvem
-            multiplataforma. Possuindo licença gratuita, podendo ter de 5 a 15
-            GB de armazenamento, como também paga.
-          </div>
-        </div>
-        <div class="app">
-          <img class="brave" src="assets/brave.png" />
-          <div>
-            <h2>Brave</h2>
-            O Brave é um navegador web livre e de código aberto encontrado na
-            Play Store. O mesmo possui algumas ferramentas como pay-to-surf, que
-            é o bloqueio de anúncios e rastreamento de sites, além de
-            possibilitar uma navegação anônima como também permite acesso a
-            VPNs, por meio de licença.
+      <section id="melhoresAplicativos">
+        <div class="content contentMelhores">
+          <h1 class="titulo">Melhores Aplicativos</h1>
+          <div class="apps">
+            <p class="melhoresDesc">
+              Pelo fato do Android possuir a Play Store, é possível ter acesso a
+              vários aplicativos<br />
+              interessantes para o usuário. Dentre eles, podemos destacar:
+            </p>
+            <div class="app">
+              <img style="width: 10rem" src="assets/android-assistant.png" />
+              <div class="descricaoApp">
+                <h1 class="tituloApp">Android Assistant</h1>
+                <br />
+                <p>
+                  O Android Assistant é um aplicativo, para Android, que
+                  monitora as funções do seu smartphone.<br />
+                  Ele permite matar processos, gerenciar arquivos e limpar
+                  cache. Com o app, o usuário<br />
+                  monitora a sua CPU com 14 funcionalidades, desde modificar
+                  todos os volume do seu aparelho <br />(toque, notificação,
+                  volume de som, alarme e chamada) até desinstalar várias
+                  aplicações ao <br />
+                  mesmo tempo.
+                </p>
+              </div>
+            </div>
+            <div class="app">
+              <img
+                style="width: 10rem; border-radius: 5rem"
+                src="assets/android-booster.jpg"
+              />
+              <div class="descricaoApp">
+                <h1>Android Booster</h1>
+                <br />
+                <p>
+                  O Android Booster é um otimizador de desempenho do
+                  dispositivo, que tem como objetivo <br />
+                  otimizar a memória e melhorar o desempenho da bateria.
+                </p>
+              </div>
+            </div>
+            <div class="app">
+              <img style="width: 10rem" src="assets/adb.png" />
+              <div class="descricaoApp">
+                <h1>Android Debug Bridge</h1>
+                <br />
+                <p>
+                  O ADB (Android Debug Bridge) é uma ferramenta de
+                  desenvolvimento usada para a depuração <br />
+                  de dispositivos Android, desse modo apresentando um terminal
+                  Unix, possibilitando a execução <br />
+                  de comandos.
+                </p>
+              </div>
+            </div>
+            <div class="app">
+              <img style="width: 10rem" src="assets/onedrive.png" />
+              <div class="descricaoApp">
+                <h1>One Drive</h1>
+                <br />
+                <p>
+                  O Onedrive é um ferramenta de armazenamento em nuvem
+                  multiplataforma. Possuindo licença <br />
+                  gratuita, podendo ter de 5 a 15 GB de armazenamento, como
+                  também paga.
+                </p>
+              </div>
+            </div>
+            <div class="app">
+              <img style="width: 10rem" src="assets/brave.png" />
+              <div class="descricaoApp">
+                <h1>Brave</h1>
+                <br />
+                <p>
+                  O Brave é um navegador web livre e de código aberto encontrado
+                  na Play Store. O mesmo <br />
+                  possui algumas ferramentas como pay-to-surf, que é o bloqueio
+                  de anúncios e rastreamento <br />
+                  de sites, além de possibilitar uma navegação anônima como
+                  também permite acesso a VPNs,<br />
+                  por meio de licença.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="problemas_de_seguranca">
-        <h1>Problemas de Segurança</h1>
-        <div id="seguranca_content">
+      <section id="problemasSeguranca">
+        <div class="content contentSeguranca">
+          <h1 class="titulo">Problemas de Seguranças</h1>
+          <br />
+          <br />
           <ul>
             <li>
+              <h1>•</h1>
               Malwares, falta de atualização de segurança e pishing são os
               principais problemas de segurança.
             </li>
             <li>
+              <h1>•</h1>
               Para evitar esses problemas, baixe aplicativos de fontes
-              confiáveis, revise as permissões dos aplicativos, cuidado com
-              links suspeitos e conecte-se à redes confiáveis.
+              confiáveis, revise as permissões dos aplicativos,<br />
+              cuidado com links suspeitos e conecte-se à redes confiáveis.
             </li>
             <li>
+              <h1>•</h1>
               Caso você tenha sido hackeado, é importante redefinir suas senhas
-              o mais rápido possível. Desconectar o aparelho da internet e
-              excluir aplicativos suspeitos também é uma forma de conter essa
-              situação. Também é importante comunicar a situação às autoridades
-              e pessoas do seu vínculo.
+              o mais rápido possível. Desconectar o <br />
+              aparelho da internet e excluir aplicativos suspeitos também é uma
+              forma de conter essa situação. Também é<br />
+              importante comunicar a situação às autoridades e pessoas do seu
+              vínculo.
             </li>
             <li>
+              <h1>•</h1>
               Embora o próprio Android tenha medidas de segurança, um antivírus
-              pode fornecer uma camada extra de proteção. Aplicativos como
-              McAfee e Avast ajudam no escaneamento do celular e no bloqueio da
-              instalação de softwares maliciosos. Para saber mais sobre
-              problemas de segurança, acesse o site oficial do Android:
-              <a href="https://www.android.com/intl/pt-BR_br/safety/"
-                ><span class="link">Proteção em Todos os Lugares</span></a
-              >
+              pode fornecer uma camada extra de <br />
+              proteção. Aplicativos como McAfee e Avast ajudam no escaneamento
+              do celular e no bloqueio da <br />
+              instalação de softwares maliciosos.
             </li>
           </ul>
         </div>
       </section>
 
       <section id="desempenho">
-        <h1>Desempenho</h1>
-        <div id="desempenho_content">
+        <div class="content contentDesempenho">
+          <h1 class="titulo">Desempenho</h1>
+          <br />
+          <br />
           <ul>
-            <li>Libere espaço de armazenamento.</li>
-            <li>Remova aplicativos pouco utilizados.</li>
-            <li>Limpe o cache e os dados de aplicativos.</li>
-            <li>Procure por atualizações de apps e do sistema.</li>
-            <li>Use o assistente do aparelho.</li>
+            <li>
+              <h1>•</h1>
+              Libere espaço de armazenamento.
+            </li>
+            <li>
+              <h1>•</h1>
+              Remova aplicativos pouco utilizados.
+            </li>
+            <li>
+              <h1>•</h1>
+              Limpe o cache e os dados de aplicativos.
+            </li>
+            <li>
+              <h1>•</h1>
+              Procure por atualizações de apps e do sistema.
+            </li>
+            <li>
+              <h1>•</h1>
+              Use o assistente do aparelho.
+            </li>
           </ul>
         </div>
       </section>
-
-      <footer id="footer">
-        <div class="footer_copy">
-          Copyright © 2023 André Luiz Duarte Fontenele
+      <br />
+      <br />
+      <footer>
+        <div class="content contentFooter">
+          Copyright © 2023 André Luiz Duarte Fontenele e João Paulo Medeiros
+          Rocha
+          <br />
           <br />
           GitHub: https://github.com/andredfontenele
+          <br />
+          <br />
+          GitHub: https://github.com/rochajpp
         </div>
       </footer>
     </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <script src="index.js"></script>
   </body>
 </html>
